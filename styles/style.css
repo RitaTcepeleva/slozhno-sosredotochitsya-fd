@@ -11,11 +11,13 @@
 .header {
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
+  margin: 10px;
+  block-size: calc(100vh - 10px * 2);
 }
 
 .decorated-zone {
-  margin: 10px;
-  block-size: calc(100vh - 10px * 2);
+  /* margin: 10px;
+  block-size: calc(100vh - 10px * 2); */
   position: relative;
 }
 
@@ -200,6 +202,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 10px;
+  block-size: calc(100vh - 10px * 2);
 }
 
 .footer__title {
@@ -215,7 +219,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .decorated-zone {
+  .header, .footer {
     margin: 20px;
     block-size: calc(100vh - 20px * 2);
   }
