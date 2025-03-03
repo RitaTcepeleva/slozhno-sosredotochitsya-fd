@@ -11,13 +11,13 @@
 .header {
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
-  margin: 10px;
-  block-size: calc(100vh - 10px * 2);
+  /* margin: 10px;
+  block-size: calc(100vh - 10px * 2); */
 }
 
 .decorated-zone {
-  /* margin: 10px;
-  block-size: calc(100vh - 10px * 2); */
+  margin: 10px;
+  block-size: calc(100vh - 10px * 2);
   position: relative;
 }
 
@@ -133,7 +133,7 @@
 .main {
   display: grid;
   gap: 50px;
-  margin-block: 40px;
+  margin-block: 50px;
   margin-inline: 10px;
 }
 
@@ -219,7 +219,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .header, .footer {
+  .decorated-zone {
     margin: 20px;
     block-size: calc(100vh - 20px * 2);
   }
@@ -243,7 +243,7 @@
 
   .main {
     gap: 80px;
-    margin-block: 60px;
+    margin-block: 80px;
     margin-inline: 20px;
   }
 
