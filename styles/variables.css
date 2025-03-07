@@ -15,4 +15,7 @@
   --main-font-weight: 400;
   --bold-font-weight: 700;
   --hover-button-outline-color: #FF007066;
+  --decorated-color: var(--accent-color);
+  --theme-button-color: var(--accent-color);
+  --section-title: var(--accent-color);
 }
